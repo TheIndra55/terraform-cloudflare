@@ -8,7 +8,7 @@ terraform {
 }
 
 variable "zones" {
-  default = ["theindra.nl", "theindra.eu", "theindra.dev"]
+  default = ["theindra.nl", "theindra.eu", "theindra.dev", "tombraidermodding.com", "cdcengine.re"]
 }
 
 data "cloudflare_zone" "zones" {
